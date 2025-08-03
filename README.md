@@ -1,72 +1,78 @@
-🧠 LogoAIGenerate
+# 🎨 LogoAIGenerate
 
-LogoAIGenerate, Logo J-Platform ve ERP sistemleri için malzeme kartlarına yapay zeka ile otomatik görsel üretimi ve İngilizce çeviri sağlayan, SQL tabanlı, dinamik temalı ve log yönetimli bir masaüstü C#/.NET uygulamasıdır.
+![License](https://img.shields.io/github/license/dogukankosan/LogoAIGenerate)
+![Stars](https://img.shields.io/github/stars/dogukankosan/LogoAIGenerate)
+![Issues](https://img.shields.io/github/issues/dogukankosan/LogoAIGenerate)
+![Last Commit](https://img.shields.io/github/last-commit/dogukankosan/LogoAIGenerate)
 
-🚀 Özellikler
-🧠 Stability AI ile ürün görseli üretimi (prompt tabanlı)
+> **LogoAIGenerate**, Stability AI ile görsel oluşturma, Logo ERP/JPlatform malzeme kartlarına toplu olarak resim ekleme ve Google Gemini API ile malzeme açıklamalarını İngilizce’ye çevirme özelliklerini bir arada sunan C#/.NET masaüstü uygulamasıdır. SQL bağlantı ayarları, dinamik log yönetimi ve yönetilebilir tema desteği ile esnek bir yapı sağlar.
 
-🌍 Gemini API ile ürün adlarını İngilizce’ye çevirme
+---
 
-🗃 SQL bağlantı ayarları ve çoklu veritabanı desteği
+## 🚀 Özellikler
 
-🖼 Malzeme kartlarına toplu görsel basma
+- 🖼 **Stability AI Entegrasyonu** → Malzeme kartları için yapay zeka destekli görsel üretimi  
+- 🌍 **Gemini API Çeviri** → Malzeme açıklamalarını otomatik İngilizce’ye çevirme  
+- 🗂 **Logo ERP / JPlatform Entegrasyonu** → Oluşturulan görselleri toplu olarak malzeme kartlarına ekleme  
+- 🔌 **Dinamik SQL Bağlantı Ayarları** → Farklı şirket veritabanlarına kolayca bağlanma  
+- 📝 **Log Yönetimi** → Tüm işlemleri kayıt altına alan dinamik log sistemi  
+- 🎨 **Tema Desteği** → Yönetilebilir, modern ve kişiselleştirilebilir arayüz  
+- ⚡ **Toplu İşlem Desteği** → Birden fazla malzeme kartını tek seferde güncelleme
 
-🎨 Yönetilebilir tema ve dinamik log ekranı
+---
 
-🧾 Prompt birleştirme ve negative prompt yönetimi
+## 🗂 Proje Yapısı
 
-📦 ERP sistemleriyle tam uyumlu görsel entegrasyonu
-
-🔐 API anahtarı güvenliği ve erişim kısıtlamaları
-
-🗂 Proje Yapısı
 LogoAIGenerate/
-├── StabilityAI.cs         # Görsel üretim işlemleri
-├── GeminiTranslate.cs     # İngilizce çeviri işlemleri
-├── SqlManager.cs          # SQL bağlantı ve veri işlemleri
-├── PromptHelper.cs        # Prompt birleştirme ve yönetimi
-├── ThemeManager.cs        # Tema ayarları ve dinamik log ekranı
-├── App.config             # API anahtarları ve bağlantı ayarları
-└── ...                    # UI bileşenleri ve diğer yardımcı dosyalar
-⚙️ Kurulum & Çalıştırma
-Projeyi Klonla:
+├── StabilityAIHelper.cs # Stability AI ile görsel üretim
+├── GeminiTranslation.cs # Google Gemini API ile metin çeviri
+├── LogoApiService.cs # Logo ERP / JPlatform entegrasyonu
+├── DatabaseConfig.txt # SQL bağlantı bilgileri
+├── ThemeConfig.txt # Tema ayarları
+├── LogManager.cs # Dinamik log yönetimi
+└── MainForm.cs # Ana uygulama ekranı
 
-bash
-git clone https://github.com/dogukankosan/LogoAIGenerate.git
-cd LogoAIGenerate
+yaml
+Kopyala
+Düzenle
+
+---
+
+## 🛠️ Kurulum & Çalıştırma
+
+1. **Projeyi Klonla:**
+   ```bash
+   git clone https://github.com/dogukankosan/LogoAIGenerate.git
+   cd LogoAIGenerate
 Bağlantı Ayarlarını Yap:
 
-App.config dosyasına SQL bağlantı cümleni ve API anahtarlarını gir.
+DatabaseConfig.txt dosyasına SQL bağlantı cümleni yaz.
 
-Stability AI ve Gemini API için erişim bilgilerini tanımla.
+Stability AI ve Gemini API anahtarlarını ilgili ayar dosyalarına ekle.
 
-Visual Studio ile çalıştır (F5):
+Projeyi Visual Studio ile Aç ve Çalıştır (F5):
+
+İlk açılışta SQL bağlantısını seç.
+
+Tema ayarlarını isteğe göre değiştir.
+
+⚡ Kullanım Senaryosu
+Uygulamayı başlat.
+
+SQL bağlantısını seç ve giriş yap.
 
 Malzeme kartlarını listele.
 
-Prompt oluştur → görsel üret → İngilizce çevir → SQL’e kaydet.
+Görsel oluşturmak istediğin malzemeleri seç → Stability AI ile otomatik üret.
 
-Dinamik log ekranından işlem geçmişini takip et.
+İstersen açıklamaları İngilizce’ye çevir (Gemini API).
 
-📌 Kullanım Senaryosu
-Uygulamayı başlat.
+Tek tıkla Logo ERP/JPlatform’a toplu olarak aktar.
 
-Malzeme kartlarını SQL’den çek.
+Tüm işlem detaylarını log ekranından takip et.
 
-Ürün adlarını Gemini API ile İngilizce’ye çevir.
 
-Stability AI ile prompt oluştur ve görsel üret.
 
-Üretilen görselleri ERP sistemine aktar.
-
-Tüm işlemleri log ekranından takip et, temayı özelleştir.
-
-🧩 Entegrasyonlar
-Sistem	Amaç	Durum
-Stability AI	Görsel üretimi	✅ Aktif
-Gemini API	İngilizce çeviri	✅ Aktif
-SQL Server	Veri yönetimi	✅ Aktif
-Logo ERP	Malzeme kartı entegrasyonu	✅ Aktif
 🤝 Katkı
 Katkı sağlamak için projeyi forklayabilir ve pull request gönderebilirsiniz.
 
@@ -76,6 +82,6 @@ MIT License
 📬 İletişim
 👨‍💻 Geliştirici: @dogukankosan
 
-🐞 Sorunlar veya öneriler: Issues sekmesi
+🐞 Hata / Öneri: Issues sekmesi
 
-<p align="center"> <img src="https://img.shields.io/badge/.NET-Framework-blue?logo=dotnet" alt="dotnet" /> <img src="https://img.shields.io/badge/Windows%20Forms-UI-lightgrey" alt="winforms" /> <img src="https://img.shields.io/badge/Stability%20AI-Image%20Generation-purple" alt="stability" /> <img src="https://img.shields.io/badge/Gemini%20API-Translation-green" alt="gemini" /> </p>
+<p align="center"> <img src="https://img.shields.io/badge/.NET-Framework-blue?logo=dotnet" alt="dotnet" /> <img src="https://img.shields.io/badge/Windows%20Forms-UI-lightgrey" alt="winforms" /> <img src="https://img.shields.io/badge/AI-StabilityAI-yellow" alt="stability-ai" /> <img src="https://img.shields.io/badge/Translate-Gemini-orange" alt="gemini" /> </p> ```
