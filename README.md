@@ -1,6 +1,8 @@
 ```
 # 🎨 LogoAIGenerate
 
+<img width="1159" height="680" alt="indir" src="https://github.com/user-attachments/assets/228cbbd1-7fb3-4680-9090-3ff229e8e1cd" />
+
 ![License](https://img.shields.io/github/license/dogukankosan/LogoAIGenerate)
 ![Stars](https://img.shields.io/github/stars/dogukankosan/LogoAIGenerate)
 ![Issues](https://img.shields.io/github/issues/dogukankosan/LogoAIGenerate)
