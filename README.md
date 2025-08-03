@@ -30,7 +30,6 @@ LogoAIGenerate/
 ├── StabilityAIHelper.cs     # Stability AI ile görsel üretim
 ├── GeminiTranslation.cs     # Google Gemini API ile metin çeviri
 ├── LogoApiService.cs        # Logo ERP / JPlatform entegrasyonu
-├── DatabaseConfig.txt       # SQL bağlantı bilgileri
 ├── ThemeConfig.txt          # Tema ayarları
 ├── LogManager.cs            # Dinamik log yönetimi
 └── MainForm.cs              # Ana uygulama ekranı
@@ -42,11 +41,7 @@ LogoAIGenerate/
 1. **Projeyi Klonla:**
    git clone https://github.com/dogukankosan/LogoAIGenerate.git
    cd LogoAIGenerate
-
-2. **Bağlantı Ayarlarını Yap:**
-   - `DatabaseConfig.txt` dosyasına SQL bağlantı cümleni yaz.  
-   - Stability AI ve Gemini API anahtarlarını ilgili ayar dosyalarına ekle.  
-
+   
 3. **Projeyi Visual Studio ile Aç ve Çalıştır (`F5`):**
    - İlk açılışta SQL bağlantısını seç.  
    - Tema ayarlarını isteğe göre değiştir.  
@@ -65,10 +60,6 @@ LogoAIGenerate/
 
 ---
 
-## 📸 Ekran Görüntüleri
-*(Buraya proje ekran görüntüleri eklenecek)*
-
----
 
 ## 🤝 Katkı
 
