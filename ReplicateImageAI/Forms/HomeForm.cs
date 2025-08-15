@@ -89,5 +89,9 @@ namespace ReplicateImageAI.Forms
         {
             OpenFormInContainer(new ImageGenerateSettingForm());
         }
+        private void btn_FileImage_Click(object sender, EventArgs e)
+        {
+            OpenFormInContainer(new ItemsFileImageForm());
+        }
     }
 }

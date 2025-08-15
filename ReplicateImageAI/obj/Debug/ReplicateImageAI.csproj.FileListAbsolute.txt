@@ -151,3 +151,13 @@ C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\System
 C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\System.ValueTuple.xml
 C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\obj\Debug\ReplicateImageAI.Forms.WaitForm1.resources
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\obj\Debug\ReplicateImageAI.csprojAssemblyReference.cache
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\obj\Debug\ReplicateImageAI.Forms.ItemsFileImageForm.resources
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\ClosedXML.dll
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\ExcelNumberFormat.dll
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\System.IO.Packaging.dll
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\ClosedXML.pdb
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\ClosedXML.xml
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\DOGUKAN\source\repos\ReplicateImageAI\ReplicateImageAI\bin\Debug\ExcelNumberFormat.xml

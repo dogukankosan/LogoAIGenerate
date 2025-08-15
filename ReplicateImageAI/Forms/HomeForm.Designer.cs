@@ -37,8 +37,10 @@
             this.btn_Logs = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btn_SQLiteCommand = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btn_ImageSetting = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.accordionControlSeparator1 = new DevExpress.XtraBars.Navigation.AccordionControlSeparator();
             this.accordionControlElement2 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btn_productPicture = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btn_FileImage = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.popupMenu2 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.skinBarSubItem2 = new DevExpress.XtraBars.SkinBarSubItem();
             this.fluentFormDefaultManager1 = new DevExpress.XtraBars.FluentDesignSystem.FluentFormDefaultManager(this.components);
@@ -56,6 +58,7 @@
             this.accordionControl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.accordionControl1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.accordionControlElement1,
+            this.accordionControlSeparator1,
             this.accordionControlElement2});
             this.accordionControl1.Location = new System.Drawing.Point(0, 0);
             this.accordionControl1.Name = "accordionControl1";
@@ -95,7 +98,7 @@
             // 
             this.btn_Logs.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_Logs.ImageOptions.Image")));
             this.btn_Logs.Name = "btn_Logs";
-            this.btn_Logs.Text = "Log Kayıtları";
+            this.btn_Logs.Text = "Hata Kayıtları";
             this.btn_Logs.Click += new System.EventHandler(this.btn_Logs_Click);
             // 
             // btn_SQLiteCommand
@@ -109,23 +112,36 @@
             // 
             this.btn_ImageSetting.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_ImageSetting.ImageOptions.Image")));
             this.btn_ImageSetting.Name = "btn_ImageSetting";
-            this.btn_ImageSetting.Text = "Resim Üretm Ayarları";
+            this.btn_ImageSetting.Text = "AI Resim Üretm Ayarları";
             this.btn_ImageSetting.Click += new System.EventHandler(this.btn_ImageSetting_Click);
+            // 
+            // accordionControlSeparator1
+            // 
+            this.accordionControlSeparator1.Name = "accordionControlSeparator1";
             // 
             // accordionControlElement2
             // 
             this.accordionControlElement2.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.btn_productPicture});
+            this.btn_productPicture,
+            this.btn_FileImage});
             this.accordionControlElement2.Expanded = true;
             this.accordionControlElement2.Name = "accordionControlElement2";
-            this.accordionControlElement2.Text = "Formlar";
+            this.accordionControlElement2.Text = "Malzemeler Görsel";
             // 
             // btn_productPicture
             // 
+            this.btn_productPicture.Expanded = true;
             this.btn_productPicture.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_productPicture.ImageOptions.Image")));
             this.btn_productPicture.Name = "btn_productPicture";
-            this.btn_productPicture.Text = "Malzeme Resim Aktarım";
+            this.btn_productPicture.Text = "AI Resim Malzeme Aktarım";
             this.btn_productPicture.Click += new System.EventHandler(this.btn_productPicture_Click);
+            // 
+            // btn_FileImage
+            // 
+            this.btn_FileImage.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btn_FileImage.ImageOptions.Image")));
+            this.btn_FileImage.Name = "btn_FileImage";
+            this.btn_FileImage.Text = "Resim Dosyası Malzeme Aktarım";
+            this.btn_FileImage.Click += new System.EventHandler(this.btn_FileImage_Click);
             // 
             // popupMenu2
             // 
@@ -167,7 +183,7 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(245, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(925, 655);
+            this.panelControl1.Size = new System.Drawing.Size(1059, 655);
             this.panelControl1.TabIndex = 2;
             // 
             // HomeForm
@@ -175,14 +191,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1170, 655);
+            this.ClientSize = new System.Drawing.Size(1304, 655);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.accordionControl1);
             this.IconOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("HomeForm.IconOptions.LargeImage")));
-            this.MaximizeBox = false;
             this.Name = "HomeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Logo Aktarım";
+            this.Text = "ERP Malzeme Görsel Aktarım";
             this.Load += new System.EventHandler(this.HomeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.accordionControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu2)).EndInit();
@@ -209,5 +224,7 @@
         private DevExpress.XtraBars.SkinBarSubItem skinBarSubItem1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraBars.Navigation.AccordionControlElement btn_ImageSetting;
+        private DevExpress.XtraBars.Navigation.AccordionControlSeparator accordionControlSeparator1;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btn_FileImage;
     }
 }

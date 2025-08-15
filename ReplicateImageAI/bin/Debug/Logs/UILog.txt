@@ -1,1 +1,76 @@
-﻿
+﻿2025-08-15 11:45:33.696 | Gemini API Yanıt Kodu: 200 - OK
+2025-08-15 11:45:33.696 | Gemini API Gönderilen JSON: {"contents":[{"parts":[{"text":"Sen bir g\u00F6rsel \u00FCretim sistemine \u00F6rnek: Stability AI i\u00E7in prompt haz\u0131rlamakla sorumlusun. \u00DCnlem i\u00E7inde verdi\u011Fim T\u00FCrk\u00E7e metni \u0130ngilizceye \u00E7evir ve a\u015Fa\u011F\u0131daki \u00F6rnek formatta d\u00FCzenle. Sadece bu \u00F6rnek formatta cevap ver, ba\u015Fka a\u00E7\u0131klama yapma. Format: \u0027industrial product: \u003Ctranslated subject\u003E, studio lighting, high quality, photorealistic\u0027. Cevab\u0131n SQL\u0027e kaydedilecek, sade ve do\u011Frudan olmal\u0131. !\u0027industrial product: parts, studio lighting, high quality, photorealistic\u0027!"}]}]}
+2025-08-15 11:45:33.697 | Gemini API Yanıtı: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "'industrial product: parts, studio lighting, high quality, photorealistic'\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.00070840795524418354
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 113,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 129,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 113
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 16
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-flash",
+  "responseId": "s_OeaMP2HeaXsbQPgbvTwQQ"
+}
+
+2025-08-15 11:45:41.789 | Gemini API Yanıt Kodu: 200 - OK
+2025-08-15 11:45:41.789 | Gemini API Gönderilen JSON: {"contents":[{"parts":[{"text":"Please translate the following product name to English only, without explanation: \u0022PANKEK\u0022"}]}]}
+2025-08-15 11:45:41.789 | Gemini API Yanıtı: {
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Pancake\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -3.9934370761329774e-06
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 18,
+    "candidatesTokenCount": 2,
+    "totalTokenCount": 20,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 18
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 2
+      }
+    ]
+  },
+  "modelVersion": "gemini-1.5-flash",
+  "responseId": "u_OeaOa6KrSVhMIPru2i6QQ"
+}
+
