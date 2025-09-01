@@ -1,6 +1,7 @@
 # 🎨 LogoAIGenerate
 
-<img width="1520" height="841" alt="11" src="https://github.com/user-attachments/assets/f08fa7ea-735f-43ca-8859-b752574c58a0" />
+<img width="1766" height="779" alt="pic2" src="https://github.com/user-attachments/assets/7bb03be3-926f-46c7-9351-6ea878343204" />
+
 
 [![License](https://img.shields.io/github/license/dogukankosan/LogoAIGenerate)](LICENSE) [![Stars](https://img.shields.io/github/stars/dogukankosan/LogoAIGenerate)](https://github.com/dogukankosan/LogoAIGenerate/stargazers) [![Issues](https://img.shields.io/github/issues/dogukankosan/LogoAIGenerate)](https://github.com/dogukankosan/LogoAIGenerate/issues) [![Last Commit](https://img.shields.io/github/last-commit/dogukankosan/LogoAIGenerate)](https://github.com/dogukankosan/LogoAIGenerate/commits/main) [![.NET Framework](https://img.shields.io/badge/.NET-Framework-blue?logo=dotnet)](https://learn.microsoft.com/dotnet/) [![Windows Forms](https://img.shields.io/badge/Windows%20Forms-UI-lightgrey)](https://learn.microsoft.com/dotnet/desktop/winforms/) [![Stability AI](https://img.shields.io/badge/AI-Stability-yellow)](https://platform.stability.ai) [![Gemini API](https://img.shields.io/badge/Translate-Gemini-orange)](https://ai.google.dev/gemini-api)
 
